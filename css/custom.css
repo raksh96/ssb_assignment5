@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{
+	background-image: url("../images/bg.png");
+	background-size: contain;
+}
+
+
+header{
+	background: #343434;
+	font-family: 'Akronim', cursive;
+	padding: 15px 0;
+
+	}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{}
+nav> ul >li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    display: block; 
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+nav ul li a img{
+	width: 80px;
+
+}
+nav ul li a:hover{
+    color: gold;
+    background: whitesmoke;
+   
+}
+
+
+.form-section{
+    padding: 50px 0;
+    font-family: 'Pacifico', cursive;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    background: lavender;
+    padding: 30px;
+}
+input{
+    width: 100%;
+    border: 1px solid darkmagenta;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-radius: 30px;
+}
+select{
+    width: 100%;
+    border: 1px solid darkmagenta;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-radius: 30px;
+}
+span{
+    color: deeppink;
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid darkmagenta;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+label{
+    color: indigo;
+}
+
+#Male{
+	width: auto;
+}
+#Female{
+    width: auto;
+}
+#Others{
+    width: auto;
+}
+input[type="checkbox"]{
+	width: auto;
+}
+.btn{
+    background-color: hotpink;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Modak', cursive;
+    font-weight: 600;
+    border-radius: 30px;
+}
